@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "561006010870",
+    "project_id": "final-project-reload",
+    "storage_bucket": "final-project-reload.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561006010870:android:00442862a1332c74ad27d7",
+        "android_client_info": {
+          "package_name": "com.example.finalprojectreloadacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561006010870-630e4tmv1iknai76833m8q9v5m9tpgke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCarxM_ZuArqgHHEc-12qrD8hUgrPLQQ8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561006010870-630e4tmv1iknai76833m8q9v5m9tpgke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
