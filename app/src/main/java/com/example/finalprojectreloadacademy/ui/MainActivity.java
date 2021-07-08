@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.finalprojectreloadacademy.R;
 import com.example.finalprojectreloadacademy.databinding.ActivityMainBinding;
+import com.example.finalprojectreloadacademy.ui.Location.MapsFragment;
 import com.example.finalprojectreloadacademy.ui.chat.FragmentChat;
 import com.example.finalprojectreloadacademy.ui.message.FragmentMessage;
 import com.example.finalprojectreloadacademy.ui.profile.FragmentProfile;
@@ -43,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_chat:
                         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container_id,new FragmentChat()).commit();
                         break;
-                    case R.id.nav_message:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container_id,new FragmentMessage()).commit();
+                    case R.id.nav_location:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container_id,new MapsFragment()).commit();
                         break;
                     case R.id.nav_profile:
                         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container_id,new FragmentProfile()).commit();
